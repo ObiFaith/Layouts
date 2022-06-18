@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+section{
+    padding: 5rem 0;
+    max-width: 1440px;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.orange{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.cyan{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.dark_cyan{
+    background-color: hsl(179, 100%, 13%);
+}
+
+h1{
+    text-transform: uppercase;
+    padding: 1.5rem 0;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%); 
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 5rem;
+}
+
+.btn{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 1.5rem;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.btn_orange{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn_cyan{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn_dark_cyan{
+    color: hsl(179, 100%, 13%);
+}
+
+.btn:hover{
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.btn_orange:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+.btn_cyan:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+.btn_dark_cyan:hover{
+    background-color: hsl(179, 100%, 13%);
+}
