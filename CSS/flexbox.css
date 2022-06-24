@@ -88,3 +88,9 @@ p{
 .btn_dark_cyan:hover{
     background-color: hsl(179, 100%, 13%);
 }
+
+@media(max-width: 49.5rem){
+    .row{
+        flex-direction: column;
+    }
+}
